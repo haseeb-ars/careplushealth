@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/careplushealth/static/css/main.fecbadef.css",
+    "main.js": "/careplushealth/static/js/main.6564a550.js",
+    "static/media/pharm.jpg": "/careplushealth/static/media/pharm.07fbf60996a277056216.jpg",
+    "static/media/texture.jpg": "/careplushealth/static/media/texture.d1c1e1d358d14ce1658e.jpg",
+    "index.html": "/careplushealth/index.html",
+    "main.fecbadef.css.map": "/careplushealth/static/css/main.fecbadef.css.map",
+    "main.6564a550.js.map": "/careplushealth/static/js/main.6564a550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fecbadef.css",
+    "static/js/main.6564a550.js"
+  ]
+}
