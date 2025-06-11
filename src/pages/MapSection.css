@@ -1,0 +1,55 @@
+/* Map container */
+.map-section-wrapper {
+    padding: 1rem 1rem;
+    background-color: #f5f7f1;
+  }
+  
+  .map-section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: raleway;
+  }
+  
+  .map-section-content h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .map-section-content p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #7f8c8d;
+  }
+  
+  .map-container {
+    height: 500px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Popup styling */
+  .map-popup h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+  }
+  
+  .map-popup p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .map-section-wrapper {
+      padding: 2rem 1rem;
+    }
+    
+    .map-container {
+      height: 350px;
+    }
+  }

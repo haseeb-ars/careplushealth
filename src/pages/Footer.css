@@ -1,0 +1,99 @@
+.footer {
+    background: linear-gradient(to right, #2f8c2c, #b5e954);
+    color: white;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 220px;
+  }
+  
+  .footer-logo img {
+    width: 60px;
+  }
+  
+  .footer-logo h1 {
+    font-size: 1.8rem;
+    margin: 10px 0 0 0;
+  }
+  
+  .footer-logo p {
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  
+  .footer-contact h2,
+  .company-column h2,
+  .links-column h2,
+  .social-column h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-contact p,
+  .company-column p {
+    margin: 5px 0;
+  }
+  
+  .nhs-logo img {
+    margin-top: 20px;
+    width: 80px;
+  }
+  
+  .links-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-column li {
+    margin-bottom: 10px;
+  }
+  
+  .links-column a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+      display: flex;
+    }
+  }
+  

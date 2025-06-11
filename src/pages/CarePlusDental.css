@@ -1,0 +1,398 @@
+
+
+.Dental-logo{
+  width: 350px;
+}
+.dental-family-section {
+  background-color: #f4f4f2;
+  padding: 80px 20px;
+  font-family: 'raleway';
+}
+
+.dental-family-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.dental-family-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.dental-family-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dental-family-subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #a89d70;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.dental-family-title {
+  font-size: 42px;
+  color: #9254b6;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dental-family-title em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.dental-family-paragraph {
+  font-size: 16px;
+  color: #374151;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dental-family-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dental-family-image img {
+    max-width: 100%;
+  }
+
+  .dental-family-text {
+    margin-top: 30px;
+  }
+
+  .dental-family-title {
+    font-size: 32px;
+  }
+}
+.dental-relax-section {
+  background-color: #f4f4f2;
+  padding: 0px 0;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.dental-relax-container {
+  max-width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dental-relax-image {
+  flex: 1;
+  min-width: 40%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.dental-relax-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dental-relax-text {
+  flex: 1;
+  padding: 0 50px;
+  font-family: raleway;
+}
+
+.dental-relax-title {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  color: #9254b6;
+}
+
+.dental-relax-title em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.dental-relax-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cbd5e1;
+  color: #0a1a2f;
+  font-family: raleway;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .dental-relax-container {
+    flex-direction: column;
+  }
+
+  .dental-relax-image {
+    width: 100%;
+    height: 400px;
+  }
+
+  .dental-relax-text {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .dental-relax-title {
+    font-size: 40px;
+  }
+
+  .dental-relax-paragraph {
+    font-size: 16px;
+  }
+}
+.rich-text-section {
+  padding: 50px 20px;
+  background-color: #9254b6;
+  font-family: raleway;
+}
+
+.rich-text-container {
+  max-width: auto;
+  margin:  auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.rich-text-heading {
+  flex: 1;
+  color: #f4f4f2;
+}
+
+.rich-text-heading h1 {
+  font-size: 98px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+}
+
+.rich-text-description {
+  flex: 1;
+  
+}
+
+.rich-text-description p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .rich-text-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rich-text-heading h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .rich-text-description p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+.dental-services-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  font-family: raleway;
+}
+
+.service-card1 {
+  background: #fff;
+  padding: 2rem;
+  border-bottom: 3px solid #9254b6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s;
+}
+
+.service-card1:hover {
+  transform: translateY(-5px);
+}
+
+.service-card1 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card1 h3 span {
+  color: #9254b6;
+  font-weight: bold;
+}
+
+.service-card1 p {
+  margin-bottom: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.service-card1 ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.service-card1 ul li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.service-card1 button {
+  background: #c94cd6;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.service-card1 button:hover {
+  background: #333;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .dental-services-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    
+  }
+}
+
+@media (max-width: 600px) {
+  .dental-services-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .service-card1 {
+    padding: 1.5rem;
+  }
+}
+
+
+.contact-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  font-family: raleway;
+  box-sizing: border-box;
+}
+
+.form-section1 {
+  flex: 1;
+  min-width: 320px;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.form-section1 h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #9254b6;
+}
+
+.form-section1 p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.form-section1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section1 label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.required {
+  color: red;
+}
+
+.form-section1 input,
+.form-section1 textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-section1 textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-section1 button {
+  background-color: #c94cd6;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+.image-section1 {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-container1 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-section1 h1 {
+    font-size: 36px;
+  }
+
+  .form-section1 button {
+    width: 100%;
+  }
+}
