@@ -17,19 +17,33 @@ const Contact = () => {
         </p>
         </div>
         
-        <form className="contact-form">
-          <input type="text" placeholder="Your Name" required />
-          <input type="text" placeholder="Phone Number" required />
-          <input type="email" placeholder="Email Address" required />
-          <select required>
-            <option value="">Select Reason</option>
-            <option value="inquiry">Inquiry</option>
-            <option value="complaint">Complaint</option>
-            <option value="other">Other</option>
-          </select>
-          <textarea placeholder="Your Message" rows="4" required></textarea>
-          <button type="submit">Book Now</button>
-        </form>
+        <form 
+  className="contact-form"
+  action="https://api.web3forms.com/submit" 
+  method="POST"
+>
+  {/* Web3Forms Access Key */}
+  <input type="hidden" name="access_key" value="09d8dbe0-2525-4da9-9575-ce3ee8c231da" />
+
+  {/* Redirect after success (optional) */}
+  <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="text" name="phone" placeholder="Phone Number" required />
+  <input type="email" name="email" placeholder="Email Address" required />
+  
+  <select name="reason" required>
+    <option value="">Select Reason</option>
+    <option value="inquiry">Inquiry</option>
+    <option value="complaint">Complaint</option>
+    <option value="other">Other</option>
+  </select>
+
+  <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+  
+  <button type="submit">Submit</button>
+</form>
+
       </div>
 
       <div className="map-side">

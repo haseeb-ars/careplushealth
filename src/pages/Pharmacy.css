@@ -75,7 +75,8 @@
 }
 
 .pharmacy-main{
-  width: 100vw
+  width: 100vw;
+  padding-top: 40px;
 }
 
 
@@ -84,7 +85,7 @@
 }
 
 .hero-banner {
-  background: url("C:\Users\HP\Desktop\Careplus health\careplushealth\public\background texture.jpg");
+  background: url("/public/texture.jpg");
   padding: 120px 20px;
   text-align: center;
   color: white;

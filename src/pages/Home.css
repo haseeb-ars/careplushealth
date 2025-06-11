@@ -1,5 +1,6 @@
 .home{
   background-color: #f8f9fa;
+  padding-top: 80px;
 }
 
 /* Ensure full width and height banner */
@@ -10,7 +11,7 @@
     to right, 
     rgba(31, 132, 67, 0.7), /* #1f8443 with 60% opacity */
     rgba(126, 191, 65, 0.7)  /* #7ebf41 with 60% opacity */
-  ), url("C:\Users\HP\Desktop\Careplus health\careplushealth\public\pharm.jpg");
+  ), url("/public/pharm.jpg");
   /* Replace with actual image */
   background-size: cover;
   background-position: center;
@@ -277,6 +278,20 @@
   color: #5a5a5a;
   line-height: 1.6;
 }
+/* Reset all link styles inside the services section */
+.services-cards a.service-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.services-cards a.service-card h3,
+.services-cards a.service-card p {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 /* Responsive */
 @media (max-width: 992px) {

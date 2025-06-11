@@ -14,3 +14,7 @@
   color: #333;
   margin-top: 10px;
 }
+/* Apply font to the whole site */
+html, body {
+  font-family: 'Raleway', sans-serif;
+}

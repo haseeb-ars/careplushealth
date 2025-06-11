@@ -47,7 +47,7 @@ const AboutUs = () => {
 
 <div className="banner-wrapper">
       <div className="banner-overlay1">
-      <img src="background texture.jpg" alt="Banner Background" className="banner-image" />
+      <img src="texture.jpg" alt="Banner Background" className="banner-image" />
         <div className="banner-content1">
           <h1 className="banner-title1">
             MEET <br />

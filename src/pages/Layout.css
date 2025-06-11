@@ -9,7 +9,7 @@
 
 
 .layout-footer {
-  background-color: #1f8443;
+  background: linear-gradient(90deg, #1d7235 0, #7ebf19 100%);
   color: #ffffff;
   text-align: center;
   padding: 16px 0;

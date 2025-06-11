@@ -1,3 +1,9 @@
+/* Apply font to the whole site */
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
 /* Header Wrapper */
 .layout-header {
     width: 100%;
@@ -13,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding:  15px 50px;
   }
   
   /* Logo */
@@ -79,6 +85,7 @@
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
   }
   
   .overlay.show .slider {
@@ -104,6 +111,7 @@
   @media (max-width: 768px) {
     .desktop-nav {
       display: none;
+      
     }
   
     .hamburger {
@@ -112,6 +120,7 @@
   
     .header-content {
       flex-wrap: nowrap;
+      padding: 15px 30px
     }
   
     .logo {

@@ -13,7 +13,9 @@ const Header = () => {
       <header className="layout-header">
         <div className="header-content">
           <div className="logo-container">
-            <img className="logo" src="Logo2.png" alt="site-logo" />
+            <Link to="/">
+  <img className="logo" src="Logo2.png" alt="site-logo" />
+</Link>
           </div>
 
           {/* Desktop Nav */}
@@ -44,7 +46,7 @@ const Header = () => {
           <nav className="slider-nav">
             <Link to="/" onClick={closeMenu}>Home</Link>
             <Link to="/pharmacy" onClick={closeMenu}>Pharmacy</Link>
-            <Link to="/about" onClick={closeMenu}>Dental</Link>
+            <Link to="/dental" onClick={closeMenu}>Dental</Link>
             <Link to="/aboutus" onClick={closeMenu}>About Us</Link>
             <Link to="/contact" onClick={closeMenu}>Contact</Link>
           </nav>

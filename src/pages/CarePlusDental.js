@@ -3,7 +3,7 @@ import './CarePlusDental.css';
 
 const Dental = () => {
   return (
-    <div>
+    <div className='dental'>
 
       <div className="dental-relax-section">
         <div className="dental-relax-container">

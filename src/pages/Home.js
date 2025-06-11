@@ -63,27 +63,27 @@ const Home = () => {
                         <p>Can’t get to see your GP? Get seen quicker, feel better sooner with a free consultation with our Pharmacist. No appointment required!</p>
                     </div>
                     <div className='service-item'>
-                        <img src='nhs-support.png' alt='Supporting the NHS' />
+                        <img src='icon2.png' alt='Supporting the NHS' />
                         <h3>Supporting the NHS</h3>
                         <p>The NHS is increasingly relying on our pharmacies to deliver great healthcare. We provide many of the NHS services available in the North-West of England.</p>
                     </div>
                     <div className='service-item'>
-                        <img src='bp-check.png' alt='NHS BP Checks' />
+                        <img src='icon3.png' alt='NHS BP Checks' />
                         <h3>Free NHS BP checks</h3>
                         <p>High blood pressure is associated with strokes, heart attacks. Our pharmacist can measure your blood pressure and explain the results and refer you if necessary.</p>
                     </div>
                     <div className='service-item'>
-                        <img src='prescription.png' alt='In-store prescribing' />
+                        <img src='icon4.png' alt='In-store prescribing' />
                         <h3>In-store prescribing</h3>
                         <p>Our organisation includes pharmacists that can prescribe prescription-only medication thereby reducing the strain on NHS services and delivering convenient health care.</p>
                     </div>
                     <div className='service-item'>
-                        <img src='projects.png' alt='Service Projects' />
+                        <img src='icon5.png' alt='Service Projects' />
                         <h3>Service specific projects</h3>
                         <p>We deliver all the services you'd expect of a community pharmacy and we’re investing in special projects to improving access to advanced care like <strong>Travel Jabs Near Me</strong>.</p>
                     </div>
                     <div className='service-item'>
-                        <img src='clinic.png' alt='Fast Health Clinics' />
+                        <img src='icon6.png' alt='Fast Health Clinics' />
                         <h3>Fast access health clinics</h3>
                         <p>Our in-pharmacy clinic mean patients aren't waiting ages to get expert health care. They can prescription-grade medicines and advice directly from our pharmacists.</p>
                     </div>
@@ -100,42 +100,41 @@ const Home = () => {
                 </div>
 
                 <div className="services-cards">
-                    <div className="service-card">
-                        <div className="service-icon">✈️</div>
-                        <h3 className="service-title">TravelJabsNearMe</h3>
-                        <p className="service-text">
-                        TravelJabsNearMe.co.uk helps travelers locate trusted clinics offering essential travel vaccinations and health advice.
-                        </p>
-                       
-                    </div>
 
-                    <div className="service-card">
-                        <div className="service-icon">🦠</div>
-                        <h3 className="service-title">FreeCovidTests</h3>
-                        <p className="service-text">
-                        We make it easy and hassle-free for individuals across the UK to order free COVID-19 test kits online
-                        </p>
-                     
-                    </div>
+  <a href="https://www.traveljabsnearme.co.uk/" target="_blank" rel="noopener noreferrer" className="service-card">
+    <div className="service-icon">✈️</div>
+    <h3 className="service-title">TravelJabsNearMe</h3>
+    <p className="service-text">
+      TravelJabsNearMe.co.uk helps travelers locate trusted clinics offering essential travel vaccinations and health advice.
+    </p>
+  </a>
 
-                    <div className="service-card">
-                        <div className="service-icon">👨🏼‍⚕️</div>
-                        <h3 className="service-title">PharmacistFirst</h3>
-                        <p className="service-text">
-                        PharmacistFirst.co.uk connects you directly with qualified pharmacists for fast, professional advice and treatment of common conditions. 
-                        </p>
-                        
-                    </div>
+  <a href="https://freecovidtests.co.uk/" target="_blank" rel="noopener noreferrer" className="service-card">
+    <div className="service-icon">🦠</div>
+    <h3 className="service-title">FreeCovidTests</h3>
+    <p className="service-text">
+      We make it easy and hassle-free for individuals across the UK to order free COVID-19 test kits online
+    </p>
+  </a>
 
-                    <div className="service-card">
-                        <div className="service-icon" >👂🏻</div>
-                        <h3 className="service-title">EarClear2u</h3>
-                        <p className="service-text">
-                        EarClear2u.co.uk offers safe and effective ear wax removal services delivered by trained healthcare professionals
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <a href="https://pharmacistfirst.co.uk/" target="_blank" rel="noopener noreferrer" className="service-card">
+    <div className="service-icon">👨🏼‍⚕️</div>
+    <h3 className="service-title">PharmacistFirst</h3>
+    <p className="service-text">
+      PharmacistFirst.co.uk connects you directly with qualified pharmacists for fast, professional advice and treatment of common conditions.
+    </p>
+  </a>
+
+  <a href="/" className="service-card">
+    <div className="service-icon">👂🏻</div>
+    <h3 className="service-title">EarClear2u</h3>
+    <p className="service-text">
+      EarClear2u.co.uk offers safe and effective ear wax removal services delivered by trained healthcare professionals
+    </p>
+  </a>
+
+</div>
+</div>
 
 
             <div className='Map'>
