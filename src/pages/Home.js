@@ -146,11 +146,11 @@ With multiple locations across North West England, CarePlus Health ensures conve
 </div>
 
 
-            <div className='Map'>
+            <div className='Map slide-up'>
                 <MapSection></MapSection>
             </div>
 
-            <div className="pharmacy-list-section">
+            <div className="pharmacy-list-section slide-up">
                 <div className="pharmacy-list">
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
