@@ -28,13 +28,15 @@ const Header = () => {
             </Link>
           </div>
 
-          <nav className="desktop-nav">
-            <Link to="/">Home</Link>
-            <Link to="/pharmacy">Pharmacy</Link>
-            <Link to="/dental">Dental</Link>
-            <Link to="/aboutus">About Us</Link>
-            <Link to="/contact">Contact</Link>
-          </nav>
+          <div className="nav-wrapper">
+  <nav className="desktop-nav">
+    <Link to="/">Home</Link>
+    <Link to="/pharmacy">Pharmacy</Link>
+    <Link to="/dental">Dental</Link>
+    <Link to="/aboutus">About Us</Link>
+  </nav>
+  <Link to="/contact" className="contact-button">Contact us</Link>
+</div>
 
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <FiX /> : <FiMenu />}
