@@ -28,39 +28,39 @@ const Home = () => {
             </div>
 
 
+<div className="pharmayouth-section">
+  <div className="pharmayouth-container">
+    <div className="pharmayouth-card slide-up">
+      <img src="quality.png" alt="Strategy Icon" className="pharmayouth-icon" />
+      <h3 className="pharmayouth-title">Quality Care</h3>
+      <p className="pharmayouth-text">
+We deliver safe, personalised healthcare services across our pharmacies—ensuring every patient receives the attention and support they deserve.      </p>
+    </div>
+
+    <div className="pharmayouth-card slide-up">
+      <img src="teamwork.png" alt="Design Icon" className="pharmayouth-icon" />
+      <h3 className="pharmayouth-title">Expert Staff</h3>
+      <p className="pharmayouth-text">
+Our team includes highly trained pharmacists and healthcare professionals committed to providing reliable advice and clinical excellence.
+      </p>
+    </div>
+
+    <div className="pharmayouth-card slide-up">
+      <img src="location.png" alt="Development Icon" className="pharmayouth-icon" />
+      <h3 className="pharmayouth-title">Local Presence</h3>
+      <p className="pharmayouth-text">
+With multiple locations across North West England, CarePlus Health ensures convenient access to essential pharmacy services for local communities.
+      </p>
+    </div>
+  </div>
+</div>
 
 
 
-
-
-
-            <div className="home-box-section section-spacing">
-                <div className="home-box slide-up">
-                    <i class="fi fi-sr-home"></i>
-                    <img src="badge.png" alt="icon1" className="home-box-icon" />
-                    <h2>Quality Care</h2>
-                    <p>We provide top-tier healthcare tailored to your needs.</p>
-                </div>
-                <div className="home-box slide-up">
-                    <img src="people.png" alt="icon2" className="home-box-icon" />
-                    <h2>Expert Staff</h2>
-                    <p>Our team consists of certified professionals and specialists.</p>
-                </div>
-                <div className="home-box slide-up">
-                    <img src="place.png" alt="icon3" className="home-box-icon" />
-                    <h2>Local Presence</h2>
-                    <p>Providing easy access to healthcare in North-West England </p>
-                </div>
-                <div className="home-box slide-up">
-                    <img src="people.png" alt="icon2" className="home-box-icon" />
-                    <h2>Expert Staff</h2>
-                    <p>Our team consists of certified professionals and specialists.</p>
-                </div>
-            </div>
 
             <div className='rich-text section-spacing slide-up'>
-                <h1>CarePlus Health is a healthcare company</h1>
-                <p>we are a healthcare company based in North-West England</p>
+                <h1>Committed to Community Health</h1>
+                <p>With a dedicated team of experienced pharmacists, healthcare professionals, and support staff, CarePlus Health ensures that every patient interaction is met with expert clinical care, genuine compassion, and a commitment to improving health outcomes. We take pride in offering trusted advice and personalised support across all our pharmacy locations.</p>
             </div>
 
             <div className='health-services-section slide-up'>

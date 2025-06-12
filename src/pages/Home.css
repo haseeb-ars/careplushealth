@@ -1,5 +1,5 @@
 .home{
-  background-color: #f8f9fa;
+  background-color: white;
   padding-top: 80px;
 }
 
@@ -141,35 +141,7 @@
 
 
 
-/* Box section */
-.home-box-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
-  background-color: #f8f9fa;
-  width: 100vw;
-  box-sizing: border-box;
-  font-family: raleway;
-}
 
-.home-box {
-  background: white;
-  border-radius: 18px;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 1 1 280px;
-  max-width: 300px;
-}
-
-.home-box-icon {
-  width: 100px;
-  height: 100px;
-
-}
 
 .home-container h1 {
   font-size: 5rem;
@@ -178,6 +150,8 @@
 .home-container p {
   font-size: 2rem;
 }
+
+
 
 .rich-text h1 {
   text-align: center;
@@ -188,28 +162,28 @@
 .rich-text p {
   text-align: center;
   font-family: raleway;
+  padding-left: 150px;
+  padding-right:150px;
 }
+@media (max-width: 992px){
+  .rich-text h1{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rich-text p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 
 .home-banner2 {
   height: 400px;
-  background-color: #f8f9fa;
+  background-color: white;
 
 }
 
 
-/* Responsive for mobile */
-@media (max-width: 768px) {
-  .home-box-section {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .home-box {
-    width: 100%;
-    max-width: 90%;
-  }
-}
 
 .health-services-section {
   background-color: #f5f7f1;
@@ -230,7 +204,7 @@
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #f8f9fa;
+  background-color: white;
   border-bottom-left-radius: 100% 50px;
   border-bottom-right-radius: 100% 50px;
   z-index: 1;
@@ -320,7 +294,7 @@
 .section-spacing {
   margin: 3rem 0;
   /* 4rem top/bottom, 0 left/right */
-  background-color: #f8f9fa;
+  background-color: white;
 }
 
 /* For mobile responsiveness */
@@ -496,3 +470,70 @@
   transform: translateY(0);
 }
 
+.pharmayouth-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pharmayouth-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pharmayouth-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  border: 1px solid #e6e6e6;
+  padding: 40px 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.pharmayouth-card:hover {
+  transform: translateY(-5px);
+}
+
+.pharmayouth-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.pharmayouth-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.pharmayouth-text {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pharmayouth-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
