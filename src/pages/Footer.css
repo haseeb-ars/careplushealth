@@ -86,20 +86,27 @@
   
   /* Responsive */
   @media (max-width: 768px) {
-
-
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
+    .footer{
+      padding: 20px 50px;
     }
-  
-    .footer-column {
-      text-align: center;
-    }
-  
-    .social-icons {
-      justify-content: center;
-      display: flex;
-    }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0; /* ✅ prevent nested padding if .footer already has it */
   }
-  
+
+  .footer-column {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .footer-logo img {
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+    display: flex;
+  }
+}
