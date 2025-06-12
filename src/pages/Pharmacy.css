@@ -86,6 +86,7 @@
 
 .hero-banner {
   background: url("/public/texture.jpg");
+  background-size: cover;
   padding: 120px 20px;
   text-align: center;
   color: white;
