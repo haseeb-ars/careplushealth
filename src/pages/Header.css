@@ -37,12 +37,14 @@ html, body {
   .desktop-nav {
     display: flex;
     gap: 24px;
+    font-weight: 50px;
   }
   
   .desktop-nav a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
+    font-weight: 50px;
   }
   
   /* Hamburger (mobile only) */

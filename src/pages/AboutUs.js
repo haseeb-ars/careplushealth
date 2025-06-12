@@ -1,44 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
 
-const teamMembers = [
-  {
-    name: 'Mehraan',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg', // replace with actual image path or leave blank for now
-    
-  },
-  {
-    name: 'Irfaan',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg',
- 
-  },
-  {
-    name: 'Saba',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg',
-    
-  },
-  {
-    name: 'Anzu',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg',
-   
-  },
-  {
-    name: 'Seb',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg',
-    
-  },
-  {
-    name: 'Alistair',
-    title: 'Wearing Many Hats',
-    image: 'minion.jpg',
-    
-  },
-];
+
 
 const AboutUs = () => {
   return (
@@ -47,7 +10,7 @@ const AboutUs = () => {
 
 <div className="banner-wrapper">
       <div className="banner-overlay1">
-      <img src="texture.jpg" alt="Banner Background" className="banner-image" />
+      <img src="England.jpg" alt="Banner Background" className="banner-image" />
         <div className="banner-content1">
           <h1 className="banner-title1">
             MEET <br />
@@ -56,29 +19,45 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="team-intro-section">
-        <p className="intro-line">
-          Great work requires great people, and we think ours are some of the best.
-        </p>
-        <p className="intro-description">
-          We’re a creative, friendly and diverse bunch, who truly enjoy what we do and the people we work with.
-          Our team spirit, expertise and perspective helps us create solutions that go far beyond just a good idea.
-        </p>
+  <div className="team-intro-section">
+  <div className="team-intro-left">
+    <div className="intro-line">
+      Great work requires great people,<br />and we think ours are some of the best.
+    </div>
+  </div>
+
+  <div className="team-intro-right">
+    <p>
+      Our team is the heart of everything we do. From experienced pharmacists to dedicated support staff, each member brings expertise, compassion, and a shared commitment to delivering outstanding patient care across our pharmacies.
+    </p>
+  </div>
+</div>
+
+
+    </div>
+
+
+<div className="careplus-team-section">
+  <div className="team-grid">
+    {[
+      { name: 'Mehraan Sattar', role: 'Director', image: '/team.jpg' },
+      { name: 'Irfaan Sattar', role: 'Product Manager', image: '/team.jpg' },
+      { name: 'Saba Sattar', role: 'Creative Leader', image: '/team.jpg' },
+      { name: 'Anzu Uddin', role: 'Marketing Head', image: '/team.jpg' },
+      { name: 'Alistair', role: 'Operations Manager', image: '/team.jpg' },
+      { name: 'Seb', role: 'Clinical Advisor', image: '/team.jpg' },
+      { name: 'David Green', role: 'IT Manager', image: '/team.jpg' },
+      { name: 'Zara Khan', role: 'HR Coordinator', image: '/team.jpg' },
+    ].map((member, index) => (
+      <div className="team-card" key={index}>
+        <img src={member.image} alt={member.name} className="team-photo" />
+        <h3 className="team-name">{member.name}</h3>
+        <p className="team-role">{member.role}</p>
       </div>
-    </div>
+    ))}
+  </div>
+</div>
 
-
-<div className="team-section">
-      {teamMembers.map((member, index) => (
-        <div className="team-member" key={index}>
-          <div className="avatar-container">
-            <img src={member.image} alt={member.name} className="avatar" />
-          </div>
-          <h3 className="member-name">{member.name}</h3>
-          <p className="member-title">{member.title}</p>
-        </div>
-      ))}
-    </div>
 
 
     </div>
