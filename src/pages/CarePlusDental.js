@@ -149,24 +149,33 @@ const Dental = () => {
           Simply fill out the form below, and we'll get <br />
           back to you within 48 business hours.
         </p>
-        <form>
-          <label>
-            Name <span className="required">*</span>
-          </label>
-          <input type="text" placeholder="Name" required />
+        <form 
+  action="https://api.web3forms.com/submit" 
+  method="POST"
+>
 
-          <label>
-            Email <span className="required">*</span>
-          </label>
-          <input type="email" placeholder="Email" required />
+  <input type="hidden" name="access_key" value="648675c0-b3ae-45c7-a7df-6b0bd3f8c85a" />
 
-          <label>
-            Message <span className="required">*</span>
-          </label>
-          <textarea placeholder="Message" required></textarea>
+  <input type="hidden" name="redirect" value="https://web3forms.com/success" />
 
-          <button type="submit">SUBMIT</button>
-        </form>
+  <label>
+    Name <span className="required">*</span>
+  </label>
+  <input type="text" name="name" placeholder="Name" required />
+
+  <label>
+    Email <span className="required">*</span>
+  </label>
+  <input type="email" name="email" placeholder="Email" required />
+
+  <label>
+    Message <span className="required">*</span>
+  </label>
+  <textarea name="message" placeholder="Message" required></textarea>
+
+  <button type="submit">SUBMIT</button>
+</form>
+
       </div>
 
       <div className="image-section1">

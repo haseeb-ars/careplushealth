@@ -1,15 +1,17 @@
 import React from 'react';
 import './Home.css';
 import MapSection from './MapSection';
+import useSlideUpOnScroll from './useSlideUpOnScroll'; // adjust path if needed
 
 const Home = () => {
+    useSlideUpOnScroll();
     return (
         <div className='home'>
 
 
-            <div className="home-banner">
-      <div className="banner-overlay">
-        <div className="banner-content">
+            <div className="home-banner ">
+      <div className="banner-overlay ">
+        <div className="banner-content slide-up">
           <h1>CarePlus Health<br /></h1>
           <p>CarePlus Health is a leading healthcare company dedicated to delivering high-quality, patient-centered services across the UK. 
             We offer a wide range of integrated healthcare solutions—from primary care and health screenings to chronic disease management and digital health support
@@ -25,36 +27,43 @@ const Home = () => {
             <div class="responsive-spacing">
             </div>
 
+
+
+
+
+
+
+
             <div className="home-box-section section-spacing">
-                <div className="home-box">
+                <div className="home-box slide-up">
                     <i class="fi fi-sr-home"></i>
                     <img src="badge.png" alt="icon1" className="home-box-icon" />
                     <h2>Quality Care</h2>
                     <p>We provide top-tier healthcare tailored to your needs.</p>
                 </div>
-                <div className="home-box">
+                <div className="home-box slide-up">
                     <img src="people.png" alt="icon2" className="home-box-icon" />
                     <h2>Expert Staff</h2>
                     <p>Our team consists of certified professionals and specialists.</p>
                 </div>
-                <div className="home-box">
+                <div className="home-box slide-up">
                     <img src="place.png" alt="icon3" className="home-box-icon" />
                     <h2>Local Presence</h2>
                     <p>Providing easy access to healthcare in North-West England </p>
                 </div>
-                <div className="home-box">
+                <div className="home-box slide-up">
                     <img src="people.png" alt="icon2" className="home-box-icon" />
                     <h2>Expert Staff</h2>
                     <p>Our team consists of certified professionals and specialists.</p>
                 </div>
             </div>
 
-            <div className='rich-text section-spacing'>
+            <div className='rich-text section-spacing slide-up'>
                 <h1>CarePlus Health is a healthcare company</h1>
                 <p>we are a healthcare company based in North-West England</p>
             </div>
 
-            <div className='health-services-section'>
+            <div className='health-services-section slide-up'>
                 <h2>Innovative Health Services</h2>
                 <div className='services-grid'>
                     <div className='service-item'>
@@ -90,7 +99,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="services-section" style={{   }}>
+            <div className="services-section slide-up" style={{   }}>
                 <div className="services-header">
                     <h4 className="services-subtitle">Empowering Better Health Across the UK</h4>
                     <h2 className="services-title">Our Projects</h2>
