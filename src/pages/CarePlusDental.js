@@ -54,62 +54,62 @@ const Dental = () => {
           <li>Personalized hygiene plans</li>
           <li>Additional treatments like fluoride and sealants for added protection.</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>PEDEATRICS</span></h3>
-        <p>Restore the function and beauty of your smile with our restorative treatments.</p>
+        <p>Comprehensive dental care for infants, children, and teenagers</p>
         <ul>
-          <li>White fillings/composite fillings</li>
-          <li>Crowns and bridges</li>
-          <li>Natural-looking dentures</li>
-          <li>Root canal therapy</li>
+          <li>Routine dental exams and cleaning</li>
+          <li>Preventive treatments</li>
+          <li>Early diagnosis and treatment</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>PERODONTOLOGY</span></h3>
-        <p>Enhance the appearance of your smile with our cosmetic treatments.</p>
+        <p>Comprehensive care to prevent, diagnose, and treat gum disease</p>
         <ul>
-          <li>Professional teeth whitening</li>
-          <li>Composite bonding</li>
-          <li>Implants</li>
-          <li>Porcelain veneers for a stunning, natural-looking smile makeover</li>
+          <li>Scaling and root planing</li>
+          <li>Periodontal maintenance</li>
+          <li>Gum grafting</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>EMERGENCY</span> ORAL SURGERY</h3>
-        <p>Achieve a straighter, more aligned smile with our orthodontic options.</p>
+        <p>Immediate treatment for urgent dental and oral conditions</p>
         <ul>
-          <li>Clear aligners offer a discreet and convenient alternative to traditional braces</li>
-          <li>Traditional braces for comprehensive orthodontic correction</li>
+          <li>Tooth extractions</li>
+          <li>Treatment of dental abscesses and oral infections</li>
+          <li>Management of facial trauma and dental injuries</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>RESTORATIVE</span> SURGERY</h3>
-        <p>Maintain healthy gums with our periodontal treatments.</p>
+        <p>Advanced treatments to repair and rebuild damaged teeth and oral structures</p>
         <ul>
-          <li>Scaling and root planing to remove plaque and tartar buildup</li>
-          <li>Periodontal maintenance</li>
-          <li>Gum grafting to restore lost gum tissue</li>
+          <li>Dental implants to replace missing teeth</li>
+          <li>Bone grafting to support implant placement</li>
+          <li>Crown lengthening to prepare teeth for restorations</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>ORTHODONTICS</span></h3>
-        <p>Receive prompt relief and expert care for dental emergencies.</p>
+        <p>Expert care to straighten teeth and improve bite alignment</p>
         <ul>
-          <li>Same-day appointments available for urgent dental needs</li>
-          <li>Treatment for severe pain, dental trauma, and other urgent issues</li>
+          <li>Traditional braces for effective tooth movement</li>
+          <li>Clear aligners for discreet, comfortable treatment</li>
+          <li>Retainers to maintain your perfect smile</li>
         </ul>
-        <button>BOOK NOW</button>
+        <button>COMING SOON</button>
       </div>
     </div>
 
