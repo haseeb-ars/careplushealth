@@ -30,12 +30,28 @@ html, body {
 .layout-header.scrolled .desktop-nav a {
   color: #fff;
 }
+@media (max-width: 768px) {
+.layout-header{
+  border-bottom: 1px solid #f5f7f1;
+}
+
+  .layout-header.scrolled .header-content {
+    padding: 10px 50px;
+    background-color: #fff;
+  }
+
+  .layout-header.scrolled .desktop-nav a {
+    color: #fff;
+  }
+}
 
 
 .logo {
   height: 60px;
   transition: height 0.3s ease;
 }
+
+
 
 .layout-header.scrolled .logo {
   height: 46px;
