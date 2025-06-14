@@ -28,14 +28,14 @@ const MapSection = () => {
 
     // Your locations data
     const locations = [
-      { lat: 53.433648, lng: -2.228699, title: "Wilmslow Road Pharmacy", description: "Our headquarters" },
-      { lat: 53.640781, lng: -3.002837, title: "CarePlus Chemist", description: "Retail outlet" },
-      { lat: 53.480510, lng: -3.018777, title: "247 Pharmacy", description: "Customer support" },
-      { lat: 53.567730, lng: -2.883668, title: "Aspire Pharmacy", description: "Customer support" },
-      { lat: 53.553738, lng: -2.224425, title: "Bowness Pharmacy (Middleton)", description: "Customer support" },
-      { lat: 53.518515, lng: -2.257840, title: "Formans Chemist", description: "Customer support" },
-      { lat: 53.535327, lng: -2.417967, title: "Bowness Pharmacy (Little Hulton)", description: "Customer support" },
-      { lat: 53.450208, lng: -2.189571, title: "CarePlus Health (Headoffice)", description: "Customer support" }
+      { lat: 53.433648, lng: -2.228699, title: "Wilmslow Road Pharmacy", description: "M20 3BG" },
+      { lat: 53.640781, lng: -3.002837, title: "CarePlus Chemist", description: "PR8 5AB" },
+      { lat: 53.480510, lng: -3.018777, title: "247 Pharmacy", description: "L22 4QR" },
+      { lat: 53.567730, lng: -2.883668, title: "Aspire Pharmacy", description: "L39 2DN" },
+      { lat: 53.553738, lng: -2.224425, title: "Bowness Pharmacy (Middleton)", description: "M24 4WT" },
+      { lat: 53.518515, lng: -2.257840, title: "Formans Chemist", description: "M25 0FX" },
+      { lat: 53.535327, lng: -2.417967, title: "Bowness Pharmacy (Little Hulton)", description: "M38 9RQ" },
+      { lat: 53.450208, lng: -2.189571, title: "CarePlus Health (Headoffice)", description: "M12 5SR" }
     ];
 
     // Add markers

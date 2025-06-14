@@ -154,49 +154,49 @@ With multiple locations across North West England, CarePlus Health ensures conve
                 <div className="pharmacy-list">
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>Aspire Pharmacy. L39 2DN</h3>
+                            <h3><a href="https://www.aspire-pharmacy.co.uk/" target="_blank" rel="noopener noreferrer">Aspire Pharmacy. L39 2DN</a></h3>
                             <p>9 Railway Road, Ormskirk, Ormskirk, L39 2DN, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>Bowness Pharmacy (Little Hulton). M38 9RQ</h3>
+                            <h3><a href="https://www.bownesspharmacy.com/" target="_blank" rel="noopener noreferrer">Bowness Pharmacy (Little Hulton). M38 9RQ</a></h3>
                             <p>Cleggs Lane, Little Hulton, Manchester, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>Bowness Pharmacy (Middleton). M24 4WT</h3>
+                            <h3><a href="https://www.bownesspharmacy.co.uk/" target="_blank" rel="noopener noreferrer">Bowness Pharmacy (Middleton). M24 4WT </a></h3>
                             <p>26 Bowness Road, Middleton, Manchester, M24 4WT, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>CarePlus Chemist. PR8 5AB</h3>
+                            <h3><a href="https://www.carepluschemist.com/" target="_blank" rel="noopener noreferrer">CarePlus Chemist. PR8 5AB</a></h3>
                             <p>34 Shakespeare Street, Southport, Southport, PR8 5AB, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>Formans Chemist. M25 0FX</h3>
+                            <h3><a href="https://formanschemist.co.uk" target="_blank" rel="noopener noreferrer">Formans Chemist. M25 0FX</a></h3>
                             <p>12 Bury Old Road, Prestwich, Manchester, M25 0EX, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>West Bank Pharmacy. WA8 0DG</h3>
+                            <h3><a href="https://www.westbankpharmacy.com/" target="_blank" rel="noopener noreferrer">West Bank Pharmacy. WA8 0DG</a></h3>
                             <p>8 Mersey Road, Widnes, Widnes, WA8 0, United Kingdom</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>Wilmslow Pharmacy. M20 3BG</h3>
+                            <h3><a href="https://www.wilmslowroadpharmacy.com/" target="_blank" rel="noopener noreferrer">Wilmslow Pharmacy. M20 3BG</a></h3>
                             <p>480 Wilmslow Road, Withington, Manchester, M20 3BG, UK</p>
                         </div>
                     </div>
                     <div className="pharmacy-item">
                         <div className="pharmacy-content">
-                            <h3>CarePlus Health (Head Office) M12 5SR</h3>
+                            <h3><a href="https://careplushealth.co.uk/" target="_blank" rel="noopener noreferrer">CarePlus Health (Head Office) M12 5SR</a></h3>
                             <p>Unit 6D Longden Rd, Levenshulme, Manchester, M12 5SR</p>
                         </div>
                     </div>

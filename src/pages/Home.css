@@ -332,6 +332,16 @@
 .pharmacy-content {
   width: 100%;
 }
+.pharmacy-content a {
+  color: black;           /* Set the color back to black */
+  text-decoration: none;  /* Remove underline */
+}
+
+.pharmacy-content a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+  color: black;                /* Keep hover color same */
+}
+
 
 .pharmacy-item h3 {
   font-size: 16px;
