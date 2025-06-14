@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Pharmacy.css"
+import { Link } from 'react-router-dom';
 
 const PharmacyPage = () => {
 
@@ -76,36 +77,31 @@ Conveniently located and easily accessible, CarePlus Chemist is your trusted par
       <div className="hero-section">
         <div className="hero-banner">
           <div className="hero-text">
-            <h1>Digital healthcare engagement</h1>
+            <h1>Your Local Health Partner</h1>
             <p>
-              We’ll help you increase your HCP engagement and patient recruitment with
-              targeted, data–driven digital campaigns and strategy.
+              CarePlus operates a chain of community pharmacies across the Northwest of England—from Liverpool and Manchester to Southport. Each location provides accessible, dependable pharmacy services backed by our trusted healthcare brand.
             </p>
           </div>
         </div>
 
         <div className="campaign-section">
           <div className="campaign-left">
-            <h1>Better digital campaigns</h1>
+            <h1>Expert Clinical Services</h1>
             <p>
-              Increase results with targeted, effected and creative digital campaigns.
+              At CarePlus, we offer much more than dispensing medicines.
             </p>
-            <button className="outline-button">More about us</button>
+            <Link to="/aboutus">
+  <button className="outline-button">Our Team</button>
+</Link>
           </div>
           <div className="campaign-right">
             <p>
-              Over the past 20 years, we’ve delivered hundreds of digital campaigns for
-              the world’s leading pharmaceutical and healthcare companies.
+At CarePlus, our pharmacies serve as a first point of contact for everyday healthcare—trusted spaces where expert advice and personal support are always within reach.            </p>
+            <p>
+             Whether it’s a medication review, minor illness guidance, or a private consultation, our pharmacists are here to listen and help you make informed choices about your health.
             </p>
             <p>
-              These range from highly targeted Google search campaigns for patient
-              recruitment and content creation for clinical trial websites, to
-              E-learning webinars and HCP email communications.
-            </p>
-            <p>
-              As certified Google partners, you can trust that we use the most
-              up-to-date practices to run targeted campaigns that consistently produce
-              results and meet your objectives quickly and efficiently.
+             We’re committed to more than just treatment—we’re here to guide, support, and empower you every step of the way.
             </p>
           </div>
         </div>

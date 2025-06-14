@@ -32,7 +32,7 @@ const Dental = () => {
           </div>
           <div className="rich-text-description">
             <p>
-              We’re excited to introduce Care Plus Dental - where high-quality, painless, and accessible dental care is at the heart of everything we do. Designed for the whole family, our team offers a relaxing, reassuring environment where every visit feels easy and stress-free.
+              We’re excited to introduce Care Plus Dental - where high-quality, painless, and accessible dental care is at the heart of everything we do. Designed for the whole family, We offer a relaxing, reassuring environment where every visit feels easy and stress-free.
               From your child's first check-up to advanced care for adults and seniors, we focus on prevention, early treatment, and lasting comfort to keep every smile healthy and bright.
               <br></br>
               We can’t wait to welcome you and your family - A new, more caring kind of dentistry is coming your way!
@@ -48,21 +48,22 @@ const Dental = () => {
       <div className="dental-services-section">
       <div className="service-card1">
         <h3><span>CHECKUP</span></h3>
-        <p>Ensure the longevity of your smile with our preventive care services.</p>
+        <p>Ensure the longevity of your smile with our proactive care services.</p>
         <ul>
-          <li>Routine cleanings and exams</li>
+          <li>Routine exams and prophylaxis</li>
+          <li> Oral cancer screening</li>
           <li>Personalized hygiene plans</li>
-          <li>Additional treatments like fluoride and sealants for added protection.</li>
+          <li>diet and lifestyle advice</li>
         </ul>
         <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>PEDEATRICS</span></h3>
-        <p>Comprehensive dental care for infants, children, and teenagers</p>
+        <p>Comprehensive dental care for infants, children, and teenagers.</p>
         <ul>
           <li>Routine dental exams and cleaning</li>
-          <li>Preventive treatments</li>
+          <li>Preventive flouride and sealants</li>
           <li>Early diagnosis and treatment</li>
         </ul>
         <button>COMING SOON</button>
@@ -70,40 +71,45 @@ const Dental = () => {
 
       <div className="service-card1">
         <h3><span>PERODONTOLOGY</span></h3>
-        <p>Comprehensive care to prevent, diagnose, and treat gum disease</p>
+        <p>Comprehensive care to prevent, diagnose, and treat gum disease.</p>
         <ul>
+          <li>Professional plaque and stain removal</li>
+          <li> Periodontal therapy</li>
           <li>Scaling and root planing</li>
-          <li>Periodontal maintenance</li>
-          <li>Gum grafting</li>
+          <li>Ongoing periodontal care</li>
+          
         </ul>
         <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
-        <h3><span>EMERGENCY</span> ORAL SURGERY</h3>
-        <p>Immediate treatment for urgent dental and oral conditions</p>
+        <h3><span>EMERGENCY CARE</span> </h3>
+        <p>Immediate treatment for dental and oral conditions.</p>
         <ul>
-          <li>Tooth extractions</li>
-          <li>Treatment of dental abscesses and oral infections</li>
-          <li>Management of facial trauma and dental injuries</li>
+          <li>Urgent Pain Management</li>
+          <li>Tooth removal</li>
+          <li>Dental abscesses and oral infections</li>
+          <li>Facial trauma and dental injuries</li>
+          
         </ul>
         <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
-        <h3><span>RESTORATIVE</span> SURGERY</h3>
-        <p>Advanced treatments to repair and rebuild damaged teeth and oral structures</p>
+        <h3><span>RESTORATIVE</span> </h3>
+        <p>Restoring teeth to their original function and appearance.</p>
         <ul>
-          <li>Dental implants to replace missing teeth</li>
-          <li>Bone grafting to support implant placement</li>
-          <li>Crown lengthening to prepare teeth for restorations</li>
+          <li>Fillings</li>
+          <li>Root canal treatments</li>
+          <li>Crowns, Bridges</li>
+         <li>Implants and Dentures</li>
         </ul>
         <button>COMING SOON</button>
       </div>
 
       <div className="service-card1">
         <h3><span>ORTHODONTICS</span></h3>
-        <p>Expert care to straighten teeth and improve bite alignment</p>
+        <p>Expert care to align teeth and restore aesthetics and function alignment.</p>
         <ul>
           <li>Traditional braces for effective tooth movement</li>
           <li>Clear aligners for discreet, comfortable treatment</li>
@@ -120,19 +126,17 @@ const Dental = () => {
             <img src="/Dental-family.jpg" alt="Dentist with Child" />
           </div>
           <div className="dental-family-text">
-            <h5 className="dental-family-subtitle">Children's Dentistry</h5>
+            <h5 className="dental-family-subtitle">Care you can count on</h5>
             <h2 className="dental-family-title">
-              Dentistry for the <em>whole</em> family
+              Dentistry for the whole<em></em> family
             </h2>
             <p className="dental-family-paragraph">
-              Our helpful staff provides a variety of treatments that are intended to give children the greatest start and continue to be helpful over time.
+              At Careplus dental, we believe that healthy smiles start at home—and that means caring for every member of your family, from toddlers to grandparents. 
             </p>
             <p className="dental-family-paragraph">
-              Your children may even look forward to visiting The CarePlus Dental because of our experienced dental team, forming a positive relationship with dentists from an early age.
-            </p>
+ We are dedicated to providing gentle, comprehensive care tailored to each age and stage of life. Whether it’s your child’s first checkup, routine cleanings, or advanced treatments, we’re here to keep you and your family smiling bright for years to come.             </p>
             <p className="dental-family-paragraph">
-              We think excellent habits are formed at a young age. Children of all ages and teenagers are welcome at our family friendly CarePlus Dental.
-            </p>
+Discover personalized dentistry that’s convenient, comfortable, and focused on your family’s long-term oral health.            </p>
           </div>
         </div>
       </div>
