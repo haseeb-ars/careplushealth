@@ -10,11 +10,10 @@ const Contact = () => {
     <div className="contact-container">
       <div className="form-side">
         <div>
-        <h5 className="sub-heading">Contact Us</h5>
-        <h1 className="main-heading">Book an appointment</h1>
+        <h1 className="sub-heading">Contact Us</h1>
+        <h1 className="main-heading">Speak to a CarePlus Representative</h1>
         <p className="description">
-          We consider all the drivers of change gives you the blocks you need to change to create a truly professional website.
-        </p>
+Need something sorted quickly? Use this form for general inquiries, service questions, or to leave feedback. A member of our support team will be in touch shortly.        </p>
         </div>
         
         <form 

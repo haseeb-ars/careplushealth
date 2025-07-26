@@ -46,7 +46,7 @@ Whether you're managing a long-term condition or seeking quick help for everyday
       link: 'https://www.wilmslowroadpharmacy.com/'
     },
     {
-      image: "cpc.jpeg",
+      image: "CPC3.png",
       title: "CarePlus Chemist",
       text: `
 CarePlus Chemist in Southport is a modern, patient-focused pharmacy dedicated to supporting the health and wellbeing of the local community. 
