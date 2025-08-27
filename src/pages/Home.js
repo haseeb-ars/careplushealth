@@ -9,19 +9,34 @@ const Home = () => {
         <div className='home'>
 
 
-            <div className="home-banner ">
-      <div className="banner-overlay ">
-        <div className="banner-content slide-up">
-          <h1>CarePlus Health<br /></h1>
-          <p>CarePlus Health is a leading healthcare company dedicated to delivering high-quality, patient-centered services across the UK. 
-            We offer a wide range of integrated healthcare solutions—from primary care and health screenings to chronic disease management and digital health support
-            <br /></p>
-          
-        </div>
-        <img className="badge" src="nhs.jpg" alt="badge" />
-      </div>
-      
+   <div className="home-banner">
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="background-video"
+  >
+    <source src="/banner3.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div className="banner-overlay">
+    <div className="banner-content slide-up">
+      <h1>CarePlus Health<br /></h1>
+      <p>
+        CarePlus Health is a leading healthcare company dedicated to delivering
+        high-quality, patient-centered services across the UK. We offer a wide
+        range of integrated healthcare solutions—from primary care and health
+        screenings to chronic disease management and digital health support
+        <br />
+      </p>
     </div>
+    <img className="badge" src="nhs.jpg" alt="badge" />
+  </div>
+</div>
+
 
 
             <div class="responsive-spacing">
